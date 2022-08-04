@@ -12,6 +12,10 @@ Getting-started.ipynb
 
 This file expands on the Bell State notebook. In this file you make a quantum circuit for the Bell State once again, but this time it introduces users to submitting jobs. The source for this code is Qiskit's Youtube video: https://www.youtube.com/watch?v=1kRfHNUbkrg&list=PLOFEBzvs-VvpHs84vFdRVIl3Wlg81j8_x&index=1&t=302s
 
+(/Images/full-bell-state.png)
+
+(/Images/bell-state-results.png)
+
 Sam's-Grover's Algorithm.ipynb
 
 Final Grover's algorithm used in research paper. Generates a random number between 1 and 15 and creates a Grover Oracle for it.  
