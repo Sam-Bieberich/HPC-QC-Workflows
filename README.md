@@ -39,3 +39,9 @@ Completed Shor's Algorithm file. Generates a random number between 2 and 14 and 
 **auto_TSP_updated.ipynb**
 
 Final TSP file. In the first part, networkx creates a random TSP map, then a circuit is composed using code from the Qiskit Textbook. To run the program, ensure that you have access to a backend that has enough qubits, as 14 is not available in the free, publicly available IBMQ resource on a real QC (as of July 2022), but it can be run also on a simulator. 
+
+![TSP Circuit (1 of 3)](/Images/tsp-curcuit1.png)
+
+![TSP NetworkX map](/Images/tsp-networkx.png)
+
+![TSP results window](/Images/tsp-results.png)
