@@ -12,9 +12,9 @@ Getting-started.ipynb
 
 This file expands on the Bell State notebook. In this file you make a quantum circuit for the Bell State once again, but this time it introduces users to submitting jobs. The source for this code is Qiskit's Youtube video: https://www.youtube.com/watch?v=1kRfHNUbkrg&list=PLOFEBzvs-VvpHs84vFdRVIl3Wlg81j8_x&index=1&t=302s
 
-(/Images/full-bell-state.png)
+![Full Bell State](/Images/full-bell-state.png)
 
-(/Images/bell-state-results.png)
+![Results](/Images/bell-state-results.png)
 
 Sam's-Grover's Algorithm.ipynb
 
