@@ -20,6 +20,12 @@ Sam's-Grover's Algorithm.ipynb
 
 Final Grover's algorithm used in research paper. Generates a random number between 1 and 15 and creates a Grover Oracle for it.  
 
+![Grover circuit](/Images/grover-circuit.png)
+
+![Grover Results Histogram](/Images/grover-results.png)
+
+![Grover Statevector Results](/Images/grover-statevector.png)
+
 Shors_complete.ipynb 
 
 Completed Shor's Algorithm file. Generates a random number between 2 and 14 and finds the factors of 15. 
