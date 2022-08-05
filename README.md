@@ -45,3 +45,8 @@ Final TSP file. In the first part, networkx creates a random TSP map, then a cir
 ![TSP NetworkX map](/Images/tsp-networkx.png)
 
 ![TSP results window](/Images/tsp-results.png)
+
+**auto-tsp-parsl.ipynb**
+
+This last file contains the same code as the previous, auto_TSP_updated.ipynb, however it is split into decorated functions to perform a parsl workflow. 
+Note: This program will download png files of the histograms to your current directory when used, use with caution.
