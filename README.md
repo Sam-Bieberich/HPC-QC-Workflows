@@ -40,6 +40,8 @@ Completed Shor's Algorithm file. Generates a random number between 2 and 14 and 
 
 Final TSP file. In the first part, networkx creates a random TSP map, then a circuit is composed using code from the Qiskit Textbook. To run the program, ensure that you have access to a backend that has enough qubits, as 14 is not available in the free, publicly available IBMQ resource on a real QC (as of July 2022), but it can be run also on a simulator. 
 
+Note: Access to IBMQ resources with higher qubit counts was supplied by Oak Ridge National Lab National Center for Computational Sciences. 
+
 ![TSP Circuit (1 of 3)](/Images/tsp-curcuit1.png)
 
 ![TSP NetworkX map](/Images/tsp-networkx.png)
@@ -48,5 +50,5 @@ Final TSP file. In the first part, networkx creates a random TSP map, then a cir
 
 **auto-tsp-parsl.ipynb**
 
-This last file contains the same code as the previous, auto_TSP_updated.ipynb, however it is split into decorated functions to perform a parsl workflow. 
+This last file contains the same code as the previous, auto_TSP_updated.ipynb, however it is split into decorated functions to perform a parsl workflow. This workflow has the capability to combine HPC resources (Andes Linux Cluster) and Quantum Computing cloud resources (IBMQ) into a single workflow, allowing for a greater ease-of-access for researchers in the field. 
 Note: This program will download png files of the histograms to your current directory when used, use with caution.
