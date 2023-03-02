@@ -28,7 +28,7 @@ Final Grover's algorithm used in research paper. Generates a random number betwe
 
 **shors_complete.ipynb** 
 
-Completed Shor's Algorithm file. Generates a random number between 2 and 14 and finds the factors of 15. 
+Completed Shor's Algorithm file. Generates a random number between 2 and 14 and finds the factors of 15. Images below depict the circuit and diagrams with the expected counts (taking into account error due to noise). 
 
 ![Shors circuit for a = 11](/Images/shors-circuit.png)
 
@@ -51,4 +51,5 @@ Note: Access to IBMQ resources with higher qubit counts was supplied by Oak Ridg
 **auto_tsp_parsl.ipynb**
 
 This last file contains the same code as the previous, auto_TSP_updated.ipynb, however it is split into decorated functions to perform a parsl workflow. This workflow has the capability to combine HPC resources (Andes Linux Cluster) and Quantum Computing cloud resources (IBMQ) into a single workflow, allowing for a greater ease-of-access for researchers in the field. 
-Note: This program will download png files of the histograms to your current directory when used, use with caution.
+
+Note: This program will download png files of the histograms to your current directory when used, use with caution. It is encouraged to modify the location where the files are downloaded in the code. 
