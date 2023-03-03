@@ -2,11 +2,14 @@
 
 Files Explained:
 
+
 **bell_state.ipynb**
 
 This file is a very introductory program with only two cells, introducing qiskit and how to view your quantum circuits with the .draw() command. The Bell State is created, which entangles two qubits together. 
 
 ![Bell State output](/Images/bell-state-example.png)
+
+
 
 **getting_started.ipynb**
 
@@ -15,6 +18,8 @@ This file expands on the Bell State notebook. In this file you make a quantum ci
 ![Full Bell State](/Images/full-bell-state.png)
 
 ![Results](/Images/bell-state-results.png)
+
+
 
 **grovers_complete.ipynb**
 
@@ -26,6 +31,8 @@ Final Grover's algorithm used in research paper. Generates a random number betwe
 
 ![Grover Statevector Results](/Images/grover-statevector.png)
 
+
+
 **shors_complete.ipynb** 
 
 Completed Shor's Algorithm file. Generates a random number between 2 and 14 and finds the factors of 15. Images below depict the circuit and diagrams with the expected counts (taking into account error due to noise). 
@@ -35,6 +42,8 @@ Completed Shor's Algorithm file. Generates a random number between 2 and 14 and 
 ![Shors results on a simulator](/Images/shors-simulator.png)
 
 ![Shors results with a real quantum computer](/Images/shors-qc.png)
+
+
 
 **auto_tsp_updated.ipynb**
 
@@ -47,6 +56,8 @@ Note: Access to IBMQ resources with higher qubit counts was supplied by Oak Ridg
 ![TSP NetworkX map](/Images/tsp-networkx.png)
 
 ![TSP results window](/Images/tsp-results.png)
+
+
 
 **auto_tsp_parsl.ipynb**
 
