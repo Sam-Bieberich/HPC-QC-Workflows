@@ -9,7 +9,7 @@ This file is a very introductory program with only two cells, introducing qiskit
 
 ![Bell State output](/Images/bell-state-example.png)
 
-
+----------------------------------------------------------------------------------------------------------------------------------
 
 **getting_started.ipynb**
 
@@ -19,7 +19,7 @@ This file expands on the Bell State notebook. In this file you make a quantum ci
 
 ![Results](/Images/bell-state-results.png)
 
-
+----------------------------------------------------------------------------------------------------------------------------------
 
 **grovers_complete.ipynb**
 
@@ -31,7 +31,7 @@ Final Grover's algorithm used in research paper. Generates a random number betwe
 
 ![Grover Statevector Results](/Images/grover-statevector.png)
 
-
+----------------------------------------------------------------------------------------------------------------------------------
 
 **shors_complete.ipynb** 
 
@@ -43,7 +43,7 @@ Completed Shor's Algorithm file. Generates a random number between 2 and 14 and 
 
 ![Shors results with a real quantum computer](/Images/shors-qc.png)
 
-
+----------------------------------------------------------------------------------------------------------------------------------
 
 **auto_tsp_updated.ipynb**
 
@@ -57,7 +57,7 @@ Note: Access to IBMQ resources with higher qubit counts was supplied by Oak Ridg
 
 ![TSP results window](/Images/tsp-results.png)
 
-
+----------------------------------------------------------------------------------------------------------------------------------
 
 **auto_tsp_parsl.ipynb**
 
